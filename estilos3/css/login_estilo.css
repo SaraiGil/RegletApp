@@ -1,0 +1,57 @@
+body {
+	padding-top: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #7D59C7;
+}
+
+@media (min-width: 992px) {
+  body {
+  	padding-top: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #7D59C7;
+  }
+}
+
+h1{
+  color: #00ccff;
+}
+
+h2, h3, h4 {
+  color: #00ccff;
+  /*color: #dedbe0;*/
+}
+
+.btn_login
+{
+  width: 200px !important;
+  margin-left: calc(37% - 50px) !important;
+  background-color: #00ccff;
+  border-style: none;
+  font-family: 'century gothic';
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+#logoini{
+  width: 75%;
+}
+
+#logoreg{
+  width: 50%;
+}
+
+.formulario{
+  width: 70%;
+  margin: auto;
+}
+
+.txt_login{
+  color: white;
+}

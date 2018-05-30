@@ -1,0 +1,71 @@
+body {
+	padding-top: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #E7DFF4;
+}
+
+@media (min-width: 992px) {
+  body {
+  	padding-top: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #E7DFF4;
+  }
+}
+
+h1{
+  color: #00ccff;
+}
+
+h2, h3, h4 {
+  color: #00ccff;
+  /*color: #dedbe0;*/
+}
+
+a{
+  font-weight: normal;
+}
+
+#barraNav {
+	background-color: #3C633F; 
+	border: 0px solid #3C633F;
+}
+
+.aNavBar{
+  color: #00ccff;
+}
+
+.mynavbar {
+      
+}
+
+.mybrand {
+    position: absolute;
+    left: 55%;
+    margin-left: -50px !important;  /* 50% del ancho del logo */
+    display: block;
+}
+
+.myicon-bar{
+  background-color: #00ccff;
+}
+
+#logo{
+  width: 30%;
+}
+
+#navLink{
+  font-family: 'kindergartenmedium';
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#imgRegletas{
+  width: 60%;
+}
+

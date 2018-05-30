@@ -1,0 +1,53 @@
+/* Estilos aplicables a todos los elementos del proyecto */
+
+body {
+  padding-top: 0px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+h1 {
+	font-family: 'kindergartenmedium';
+	font-size: 70px;
+}
+
+h2, h3, h4 {
+	font-family: 'kindergartenmedium';
+}
+
+h2{
+	font-size: 40px !important;
+}
+
+p{
+	font-family: 'century gothic';
+	color: black;
+	font-size: 18px;
+}
+
+a{
+	font-family: 'century gothic';
+	color: #00ccff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+li {
+	list-style: none;
+	padding: 8px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input{
+	height: 50px !important;
+}
+
