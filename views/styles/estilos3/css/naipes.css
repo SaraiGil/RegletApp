@@ -1,0 +1,72 @@
+:root {
+    --main-bg-color: coral;
+    --color1: #FFFFFF;
+    --color2: #ff1a1a;
+    --color3: #47d147;
+    --color4: #ff6699;
+    --color5: #ffd11a;
+    --color6: #006622;
+    --color7: #000000;
+    --color8: #734d26;
+    --color9: #3333ff;
+    --color10: #ff751a;
+}
+
+#izq{
+	background-color: var(--color5);
+	width: 150px;
+	height: 150px;
+	border-radius: 200px;
+	border: 1px solid var(--color5);
+}
+
+#centro{
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	border-radius: 200px;
+	border: 1px solid black;
+
+}
+
+#der{
+	background-color: var(--color3);
+	width: 150px;
+	height: 150px;
+	border-radius: 200px;
+	border: 1px solid var(--color3);
+}
+
+#izq p, #der p, #centro p{
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 150px;
+
+}
+
+.divHijo {
+    width:450px;
+    margin:0px auto;
+}
+
+.formulario{
+  width: 180px;
+  margin: 0px auto;
+}
+
+.formulario2{
+  width: 150px;
+}
+
+.btn_naipe
+{
+  width: 200px !important;
+  /*margin-left: calc(37% - 50px) !important;*/
+  background-color: #00ccff;
+  border-style: none;
+  font-family: 'century gothic';
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}

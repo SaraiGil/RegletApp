@@ -19,6 +19,7 @@
     <link href="styles/estilos3/css/estilo_css.css" rel="stylesheet">
     <link href="styles/estilos3/css/index_estilo.css" rel="stylesheet">
     <link href="styles/estilos3/css/navbar.css" rel="stylesheet">
+    <link href="styles/estilos3/css/naipes.css" rel="stylesheet">
 
     <!--FUENTES-->
     <link rel="stylesheet" type="text/css" href="styles/fuentes/kindergarten/stylesheet.css">
@@ -73,24 +74,87 @@
     </nav>
 
 
-
-
     <div class="container">
       <div class="row">
-
         <!-- Contenido Principal -->
-        <div class="col-xs-1">
-        </div>
+        <div class="col-xs-1"></div>
 
         <div class="col-xs-10">
           <br><br>
-
           <h2 class="text-center">Multiplicaciones</h2>
           <br><br>
-          <p class="text-center">Elige un naipe:</p><br>
+          <p class="text-center">Elige un modo para jugar:</p><br>
         </div>
-
       </div>
+
+      <!--Radio para elegir el modo de juego-->
+      <div class="row">
+        <form class="formulario">
+          <label class="radio-inline">
+            <input type="radio" id="radio1" name="modoN" onclick="cambiarModo()"><br>
+            Modo 1
+          </label>
+          <label class="radio-inline">
+            <input type="radio" id="radio2" name="modoN" onclick="cambiarModo()"><br>
+            Modo 2
+          </label>
+        </form>
+      </div>
+      <br><br>
+
+
+      <!--VISTA GRÁFICA DE LOS NAIPES #1-->
+      <div class="row" id="naipes1" style="display:none">
+        <div class="divHijo">
+          <div class="col-xs-1" id="izq">
+            <p></p>
+          </div>
+          <div class="col-xs-1" id="centro">
+            <p>15</p>
+          </div>
+          <div class="col-xs-1" id="der">
+            <p></p>
+          </div>
+        </div>
+        <div class="divHijo">
+          <div class="text-center">
+            <br><br><br><br><p></p><br><br><br><br>
+            <form>
+              <input type="number" min="1" max="10" id="n1" placeholder="Número 1" class="formulario2">
+              <span class="glyphicon glyphicon-remove"></span>
+              <input type="number" min="1" max="10" id="n2" placeholder="Número 2" class="formulario2">
+              <br><br>
+              <button type="submit" class="btn btn-default btn_naipe" onclick="kkkk()">Calcular</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!--VISTA GRÁFICA DE LOS NAIPES #2-->
+      <div class="row" id="naipes2" style="display:none">
+        <div class="divHijo">
+          <div class="col-xs-1" id="izq">
+            <p>5</p>
+          </div>
+          <div class="col-xs-1" id="centro">
+            <p></p>
+          </div>
+          <div class="col-xs-1" id="der">
+            <p>3</p>
+          </div>
+        </div>
+        <div class="divHijo">
+          <div class="text-center">
+            <br><br><br><br><p></p><br><br><br><br>
+            <form>
+              <input type="number" min="1" max="100" id="res" placeholder="Resultado" class="formulario2">
+              <br><br>
+              <button type="submit" class="btn btn-default btn_naipe" onclick="kkkk()">Calcular</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
     </div>
 
 
@@ -98,7 +162,25 @@
     <script src="styles/estilos/jquery/jquery.min.js"></script>
     <script src="styles/estilos/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <!--JS-->
+    <script>
+      function cambiarModo() {
+          var radio1 = document.getElementById("radio1");
+          var radio2 = document.getElementById("radio2");
+          var modo1 = document.getElementById("naipes1");
+          var modo2 = document.getElementById("naipes2");
 
+          if (radio1.checked){
+              modo1.style.display = "block";
+              modo2.style.display = "none";
+          }
+          if (radio2.checked) {
+             modo2.style.display = "block";
+             modo1.style.display = "none";
+          }
+      }
+
+      </script>
 
   </body>
 </html>
