@@ -14,16 +14,16 @@
 
 #izq{
 	background-color: var(--color5);
-	width: 150px;
-	height: 150px;
+	width: 110px;
+	height: 110px;
 	border-radius: 200px;
 	border: 1px solid var(--color5);
 }
 
 #centro{
 	background-color: white;
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	border-radius: 200px;
 	border: 1px solid black;
 
@@ -31,8 +31,8 @@
 
 #der{
 	background-color: var(--color3);
-	width: 150px;
-	height: 150px;
+	width: 110px;
+	height: 110px;
 	border-radius: 200px;
 	border: 1px solid var(--color3);
 }
@@ -41,12 +41,12 @@
 	position: relative;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 150px;
+	line-height: 110px;
 
 }
 
 .divHijo {
-    width:450px;
+    width:340px;
     margin:0px auto;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .formulario2{
-  width: 150px;
+  width: 110px;
 }
 
 .btn_naipe
