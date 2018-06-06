@@ -38,3 +38,8 @@ function cambiarModo() {
        modo1.style.display = "none";
     }
 }
+
+/*--------------------FUNCIONES PARA NAIPES-----------------------*/
+/*function multiplicarA(){
+
+}*/

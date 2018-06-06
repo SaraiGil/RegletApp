@@ -28,14 +28,24 @@ h2, h3, h4 {
 }
 
 #username{
-	width: 700px !important;
-	margin-left: calc(10% - 40px) !important;
+	width: 75% !important;
+	margin-left: 12% !important;
+	margin-right: 10% !important;
+}
+
+.contenidoPrinc{
+	background: red;
+	padding-top: 15px;
+	position: relative;
+	height: 270px;
 }
 
 .btn_login
 {
   width: 200px !important;
-  margin-left: calc(40% - 20px) !important;
+	position: relative;
+  margin-left: 38% !important;
+	margin-right: 45% !important;
   background-color: #00ccff;
   border-style: none;
   font-family: 'century gothic';
@@ -77,13 +87,13 @@ h2, h3, h4 {
 	}
 
 	.ventana, .ventana{
-		width: 75%;
-		/*height: 140px;*/
+		width: 66%;
+		/*height: 200px;*/
 		float: left;
 		position: fixed;
 		background: #8863eb;
 		z-index: 9999999;
-		margin-left: calc(15% - 40px) !important;;
+		margin-left: 8% !important;;
 		/*left: -25%;*/
 		/* display: none; */
 		padding: 10px;
