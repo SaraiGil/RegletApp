@@ -1,0 +1,78 @@
+:root {
+    --color1: #FFFFFF;
+    --color2: #ff1a1a;
+    --color3: #47d147;
+    --color4: #ff6699;
+    --color5: #ffd11a;
+    --color6: #006622;
+    --color7: #000000;
+    --color8: #734d26;
+    --color9: #3333ff;
+    --color10: #ff751a;
+
+    --num1: 10%;
+    --num2: 20%;
+    --num3: 30%;
+    --num4: 40%;
+    --num5: 50%;
+    --num6: 60%;
+    --num7: 70%;
+    --num8: 80%;
+    --num9: 90%;
+    --num10: 100%;
+
+}
+
+.divRegletas{
+}
+
+#izq{
+	background-color: var(--color4);
+	width: var(--num4);
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid var(--color4);
+}
+
+
+#der{
+	background-color: var(--color6);
+	width: var(--num6);
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid var(--color6);
+}
+
+#izq p, #der p, #centro p{
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+
+}
+
+.divHijo {
+    width:340px;
+    margin:0px auto;
+}
+
+.formulario{
+  width: 180px;
+  margin: 0px auto;
+}
+
+.formulario2{
+  width: 110px;
+}
+
+.btn_naipe
+{
+  width: 200px !important;
+  /*margin-left: calc(37% - 50px) !important;*/
+  background-color: #00ccff;
+  border-style: none;
+  font-family: 'century gothic';
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}

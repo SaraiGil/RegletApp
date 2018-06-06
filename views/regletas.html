@@ -19,6 +19,7 @@
     <link href="styles/estilos3/css/estilo_css.css" rel="stylesheet">
     <link href="styles/estilos3/css/index_estilo.css" rel="stylesheet">
     <link href="styles/estilos3/css/navbar.css" rel="stylesheet">
+    <link href="styles/estilos3/css/regletas.css" rel="stylesheet">
 
     <!--FUENTES-->
     <link rel="stylesheet" type="text/css" href="styles/fuentes/kindergarten/stylesheet.css">
@@ -79,17 +80,40 @@
       <div class="row">
 
         <!-- Contenido Principal -->
-        <div class="col-xs-1">
-        </div>
+        <div class="col-xs-1"></div>
 
         <div class="col-xs-10">
           <br><br>
-
           <h2 class="text-center">Sumas</h2>
-          <br><br>
-          <p class="text-center">Elige un valor para hacer combinaciones:</p><br>
+          <br>
+          <p class="text-center">¿Qué números forman este resultado?</p>
         </div>
+      </div>
+      <br><br>
 
+
+      <!--VISTA GRÁFICA DE LAS REGLETAS-->
+      <div class="row" >
+        <div class="divHijo">
+          <div class="col-xs-1" id="izq">
+            <p></p>
+          </div>
+          <div class="col-xs-1" id="der">
+            <p></p>
+          </div>
+        </div>
+        <div class="divHijo">
+          <div class="text-center">
+            <br><br><br><br><br>
+            <form>
+              <input type="number" min="1" max="10" id="n1" placeholder="Número 1" class="formulario2">
+              <span class="glyphicon glyphicon-plus"></span>
+              <input type="number" min="1" max="10" id="n2" placeholder="Número 2" class="formulario2">
+              <br><br><br>
+              <button type="submit" class="btn btn-default btn_naipe">Calcular</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 
