@@ -15,6 +15,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!--JAVASCRIPT-->
+    <script src="../js/funciones.js"></script>
+
     <!--HOJAS DE ESTILOS-->
     <link href="styles/estilos3/css/estilo_css.css" rel="stylesheet">
     <link href="styles/estilos3/css/index_estilo.css" rel="stylesheet">
@@ -119,13 +122,11 @@
         <div class="divHijo">
           <div class="text-center">
             <br><br><br><br><p></p><br><br><br><br>
-            <form>
               <input type="number" min="1" max="10" id="n1" placeholder="Número 1" class="formulario2">
               <span class="glyphicon glyphicon-remove"></span>
               <input type="number" min="1" max="10" id="n2" placeholder="Número 2" class="formulario2">
               <br><br>
               <button type="submit" class="btn btn-default btn_naipe" onclick="kkkk()">Calcular</button>
-            </form>
           </div>
         </div>
       </div>
@@ -146,11 +147,9 @@
         <div class="divHijo">
           <div class="text-center">
             <br><br><br><br><p></p><br><br><br><br>
-            <form>
               <input type="number" min="1" max="100" id="res" placeholder="Resultado" class="formulario2">
               <br><br>
               <button type="submit" class="btn btn-default btn_naipe" onclick="kkkk()">Calcular</button>
-            </form>
           </div>
         </div>
       </div>
@@ -162,25 +161,6 @@
     <script src="styles/estilos/jquery/jquery.min.js"></script>
     <script src="styles/estilos/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!--JS-->
-    <script>
-      function cambiarModo() {
-          var radio1 = document.getElementById("radio1");
-          var radio2 = document.getElementById("radio2");
-          var modo1 = document.getElementById("naipes1");
-          var modo2 = document.getElementById("naipes2");
-
-          if (radio1.checked){
-              modo1.style.display = "block";
-              modo2.style.display = "none";
-          }
-          if (radio2.checked) {
-             modo2.style.display = "block";
-             modo1.style.display = "none";
-          }
-      }
-
-      </script>
 
   </body>
 </html>

@@ -9,6 +9,11 @@
     <link rel="stylesheet" type="text/css" href="styles/estilos3/bootstrap/css/bootstrap.css">
     <link href="styles/estilos3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!--JAVASCRIPT-->
+        <script src="../js/jquery-3.1.1.js"></script>
+    <script src="../js/funciones.js"></script>
+
+
     <!--HOJAS DE ESTILOS-->
     <link href="styles/estilos3/css/estilo_css.css" rel="stylesheet">
     <link href="styles/estilos3/css/login_estilo.css" rel="stylesheet">
@@ -27,6 +32,20 @@
         <div class="col-xs-1">
         </div>
 
+
+        <div class="bg" style="align-items:center;"></div>
+        <!-- modal -->
+        <div id="ventana" class="ventana">
+          <h2 id="texto"></h2>
+          <p id="texto-p"></p>
+        </div>
+
+        <div id="ventana" class="ventana">
+          <h2 id="texto"></h2>
+          <p id="texto-p"></p>
+        </div>
+        <!-- modal fin -->
+
         <div class="col-xs-10">
           <br>
           <img src="imagenes/logo.png" id="logoini"><br>
@@ -34,7 +53,6 @@
 
           <h2 class="text-center">Inicio de Sesión</h2><br>
 
-          <form action="inicio.html" class="formulario">
             <div class="form-group">
               <input type="text" class="form-control" id="username" placeholder="¿Cómo te llamas?">
             </div>
@@ -44,7 +62,6 @@
             <div class="form-actions">
               <button type="submit" class="btn_login btn btn-default" onclick="Login()">Entrar</button>
             </div>
-          </form>
 
           <br><br>
 
