@@ -59,6 +59,10 @@
 
 }
 
+#n1, #n2{
+  padding-left: 20px;
+}
+
 .divHijo {
     width:340px;
     margin:0px auto;
