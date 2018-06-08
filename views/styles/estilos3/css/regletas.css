@@ -88,3 +88,15 @@
   color: white;
   font-size: 16px;
 }
+
+.btn_ejercicio
+{
+  width: 150px !important;
+  margin-left: 25% !important;
+  background-color: #00ccff;
+  border-style: none;
+  font-family: 'century gothic';
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}

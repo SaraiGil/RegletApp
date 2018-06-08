@@ -30,6 +30,10 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .navbar-nav>li>p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .collapse.in{
         display:block !important;
     }

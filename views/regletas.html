@@ -15,6 +15,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!--JAVASCRIPT-->
+    <script src="../js/jquery-3.1.1.js"></script>
+    <!-- <script src="../js/funcionesNaipes.js"></script> -->
+    <script src="../js/funcionessumas.js"></script>
+    <script src="../js/validaryfunciones.js"></script>
+
     <!--HOJAS DE ESTILOS-->
     <link href="styles/estilos3/css/estilo_css.css" rel="stylesheet">
     <link href="styles/estilos3/css/index_estilo.css" rel="stylesheet">
@@ -43,28 +49,28 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse" style="height: auto;">
         <ul class="nav navbar-nav navbar-right" style="height: auto;">
           <li>
-            <a href="info.html" style="color: #00ccff;"><span class="glyphicon glyphicon-info-sign"></span>
+            <a href="info.html" style="color: #00ccff;" id="pestInfo"><span class="glyphicon glyphicon-info-sign"></span>
               ¿Cómo funciona?
             </a>
           </li>
           <li>
-            <a href="regletas.html" style="color: #00ccff;"><span class="glyphicon glyphicon-plus"></span>
+            <a href="regletas.html" style="color: #00ccff;" id="pestSumas"><span class="glyphicon glyphicon-plus"></span>
               Sumas
             </a>
           </li>
           <li>
-            <a href="naipes.html" style="color: #00ccff;"><span class="glyphicon glyphicon-remove"></span>
+            <a href="naipes.html" style="color: #00ccff;" id="pestNaipes"><span class="glyphicon glyphicon-remove"></span>
               Multiplicaciones
             </a>
           </li>
           <li>
-            <a href="premios.html" style="color: #00ccff;"><span class="glyphicon glyphicon-education"></span>
+            <a href="premios.html" style="color: #00ccff;" id="pestPremios"><span class="glyphicon glyphicon-education"></span>
               Mis Premios
             </a>
           </li>
           <li class="divider"></li>
           <li>
-            <a href="../index.html" style="color: #00ccff;"><span class="glyphicon glyphicon-off"></span>
+            <a href="../index.html" style="color: #00ccff;" id="pestSalir"><span class="glyphicon glyphicon-off"></span>
               <strong>Salir</strong>
             </a>
           </li>
@@ -100,6 +106,7 @@
           <h2 class="text-center">Sumas</h2>
           <br>
           <p class="text-center">¿Qué números forman este resultado?</p>
+          <button type="submit" class="btn btn-default btn_ejercicio ejercicio">Otro ejercicio</button>
         </div>
       </div>
       <br><br>
@@ -108,7 +115,7 @@
       <!--VISTA GRÁFICA DE LAS REGLETAS-->
       <div class="row" >
         <div class="divHijo">
-          <div class="col-xs-1" id="completa"><p>10</p></div>
+          <div class="col-xs-1" id="completa"><p id="respuesta">10</p></div>
           <br><br><p></p><br>
           <div class="col-xs-1" id="izq">
             <p></p>
@@ -120,13 +127,11 @@
         <div class="divHijo">
           <div class="text-center">
             <br><br><br><br><br>
-            <form>
               <input type="number" min="1" max="10" id="n1" placeholder="Número 1" class="formulario2">
               <span class="glyphicon glyphicon-plus"></span>
               <input type="number" min="1" max="10" id="n2" placeholder="Número 2" class="formulario2">
               <br><br><br>
-              <button type="submit" class="btn btn-default btn_naipe">Calcular</button>
-            </form>
+              <button type="submit" class="btn btn-default btn_naipe sumar">Calcular</button>
           </div>
         </div>
       </div>
