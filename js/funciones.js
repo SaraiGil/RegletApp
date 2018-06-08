@@ -1,6 +1,6 @@
 var Regletas;
-var puntos;
 var ArrayMulti=[];
+var pts = 10;
 
 function Login(){
   user = document.getElementById("username").value
@@ -16,6 +16,10 @@ function Login(){
     /*alert("Ingresa un nombre :)")*/
 
   }
+}
+
+function removeStorage(){
+  localStorage.removeItem("puntaje");
 }
 
 function randomMulti(array) {
@@ -355,17 +359,17 @@ function rellenoNaipeDB(valor){
   }
 }
 
-// function GetElementInsideContainer(containerID, childID) {
-//     var elm = {};
-//     var elms = document.getElementById(containerID).getElementsByTagName("p");
-//     for (var i = 0; i < elms.length; i++) {
-//         if (elms[i].id === childID) {
-//             elm = elms[i];
-//             break;
-//         }
-//     }
-//     return elm;
-// }
+function addPuntaje(){
+  if (pts==10) {
+    localStorage.setItem('puntaje',(0+pts));
+    totalPunt=JSON.parse(localStorage.getItem("puntaje"));
+  }else{
+    pts=pts+10;
+    localStorage.setItem('puntaje',(pts));
+    totalPunt=JSON.parse(localStorage.getItem("puntaje"));
+  }
+
+}
 
 $(document).ready(function(){
 
@@ -445,9 +449,8 @@ $(document).ready(function(){
         rellenoNaipeIA(multiplicando1);
         rellenoNaipeDA(multiplicando2);
 
-        //localStorage.setItem('puntaje',(puntos+10));
-        //totalPunt=JSON.parse(localStorage.getItem("puntaje"));
-        //console.log(parseInt(totalPunt));
+        addPuntaje()
+        console.log(parseInt(totalPunt));
         notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
         setTimeout(function(){location.reload(); },3000);
       }else{
@@ -474,9 +477,10 @@ $(document).ready(function(){
       console.log(resultado);
       if(parseInt(resultado) == parseInt(total)){
 
-        /*localStorage.setItem('puntaje',(puntos+10));
-        totalPunt=JSON.parse(localStorage.getItem("puntaje"));
-        console.log(parseInt(totalPunt));*/
+        //localStorage.setItem('puntaje',(puntos+10));
+        //totalPunt=JSON.parse(localStorage.getItem("puntaje"));
+        addPuntaje()
+        console.log(parseInt(totalPunt));
         notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
         setTimeout(function(){location.reload(); },3000);
       }else{
@@ -490,8 +494,3 @@ $(document).ready(function(){
   //console.log(arrayRegletas);
 
 });
-
-/*--------------------FUNCIONES PARA NAIPES-----------------------*/
-/*function multiplicarA(){
-
-}*/
