@@ -9,7 +9,7 @@ function Login(){
     nuevoUsuario = JSON.parse(localStorage.getItem("usuario"))
   	console.log(nuevoUsuario)
     notificacionReg(nuevoUsuario,"Bienvenido");
-    setTimeout(function(){window.location.href = 'inicio.html'; },2000);
+    setTimeout(function(){window.location.href = 'views/inicio.html'; },2000);
 
   } else{
     notificacionReg("Ingresa un nombre","Recuerda")
