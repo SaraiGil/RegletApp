@@ -43,18 +43,19 @@ h2, h3, h4 {
 {
   width: 200px !important;
 	position: relative;
-  margin-left: 38% !important;
-	margin-right: 45% !important;
+  /*margin-left: 38% !important;
+	margin-right: 45% !important;*/
+	margin-left: calc(30% - 50px) !important;
   background-color: #00ccff;
   border-style: none;
   font-family: 'century gothic';
   font-weight: bold;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #logoini{
-  width: 75%;
+  width: 100%;
 }
 
 #logoreg{
