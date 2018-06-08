@@ -1,6 +1,5 @@
 var Regletas;
 var ArrayMulti=[];
-var pts = 10;
 
 $(document).ready(function(){
 
@@ -86,10 +85,9 @@ $(document).ready(function(){
           rellenoNaipeIA(multiplicando1);
           rellenoNaipeDA(multiplicando2);
 
-          addPuntaje()
-          console.log(parseInt(totalPunt));
+          addPuntaje();
           notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
-          setTimeout(function(){location.reload(); },3000);
+          setTimeout(function(){location.reload(); },7000);
         }else{
           notificacionReg("Resultado Incorrecto, intenta otra vez.","¡Oh no! :(");
         }
@@ -116,8 +114,7 @@ $(document).ready(function(){
 
           //localStorage.setItem('puntaje',(puntos+10));
           //totalPunt=JSON.parse(localStorage.getItem("puntaje"));
-          addPuntaje()
-          console.log(parseInt(totalPunt));
+          addPuntaje();
           notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
           setTimeout(function(){location.reload(); },3000);
         }else{

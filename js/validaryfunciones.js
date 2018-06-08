@@ -32,8 +32,19 @@ function Login(){
 }
 
 function removeStorage(){
-  localStorage.removeItem("puntaje");
+  localStorage.removeItem('puntaje');
+  localStorage.removeItem('usuario');
 }
+
+// $('#pestSalir').click(function () {
+//   removeStorage();
+//   console.log(parseInt(localstorage.getItem("puntaje")));
+// });
+
+// $('a#pestSalir').click(function(){
+//   removeStorage();
+//   setTimeout(function(){window.location.href = '../index.html'; },2000);
+// });
 
 function randomMulti(array) {
   var number = array[Math.floor(Math.random()*array.length)];
@@ -476,13 +487,10 @@ function rellenoSuma(valor){
 
 
 function addPuntaje(){
-  if (pts==10) {
-    localStorage.setItem('puntaje',(0+pts));
-    totalPunt=JSON.parse(localStorage.getItem("puntaje"));
-  }else{
-    pts=pts+10;
-    localStorage.setItem('puntaje',(pts));
-    totalPunt=JSON.parse(localStorage.getItem("puntaje"));
-  }
 
+    pts = parseInt(localStorage.getItem('puntaje')+10) ;
+    console.log("variable pts"+pts);
+    localStorage.setItem('puntaje',pts);
+    totalPunt=JSON.parse(localStorage.getItem("puntaje"));
+    console.log(totalPunt)
 }

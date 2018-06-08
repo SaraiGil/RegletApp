@@ -1,10 +1,3 @@
-// var Regletas;
-// var ArrayMulti=[];
-var r1;
-var r2;
-var pts = 10;
-
-
   // //INICIO REGLETAPP
   // $('a #navLink').click(function () {
   //   setTimeout(function(){window.location.href = "inicio.html" },2000);
@@ -52,10 +45,7 @@ $(document).ready(function(){
             console.log(totalS);
 
             if(resultadoS == totalS){
-
-
-              addPuntaje()
-              console.log(parseInt(totalPunt));
+              addPuntaje();
               notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
               setTimeout(function(){location.reload(); },3000);
             }else{

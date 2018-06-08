@@ -19,6 +19,10 @@
     <script src="../js/jquery-3.1.1.js"></script>
     <!-- <script src="../js/funcionesNaipes.js"></script> -->
     <script src="../js/funcionessumas.js"></script>
+    <script>
+    if()
+    localStorage.setItem('puntaje',0);
+    </script>
     <script src="../js/validaryfunciones.js"></script>
 
     <!--HOJAS DE ESTILOS-->
@@ -70,7 +74,7 @@
           </li>
           <li class="divider"></li>
           <li>
-            <a href="../index.html" style="color: #00ccff;" id="pestSalir"><span class="glyphicon glyphicon-off"></span>
+            <a href="../index.html" style="color: #00ccff;" id="pestSalir" onclick="removeStorage()"><span class="glyphicon glyphicon-off"></span>
               <strong>Salir</strong>
             </a>
           </li>
