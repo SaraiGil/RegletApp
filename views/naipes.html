@@ -18,6 +18,7 @@
     <!--JAVASCRIPT-->
     <script src="../js/jquery-3.1.1.js"></script>
     <script src="../js/funciones.js"></script>
+    <script src="../js/validarCampos.js"></script>
 
     <!--HOJAS DE ESTILOS-->
     <link href="styles/estilos3/css/estilo_css.css" rel="stylesheet">
@@ -80,8 +81,22 @@
 
     <div class="container">
       <div class="row">
+        <div class="bg" style="align-items:center;"></div>
+        <!-- modal -->
+        <div id="ventana" class="ventana">
+          <h2 id="texto"></h2>
+          <p id="texto-p"></p>
+        </div>
+
+        <div id="ventana" class="ventana">
+          <h2 id="texto"></h2>
+          <p id="texto-p"></p>
+        </div>
+        <!-- modal fin -->
+
         <!-- Contenido Principal -->
         <div class="col-xs-1"></div>
+
 
         <div class="col-xs-10">
           <br><br>
@@ -95,11 +110,11 @@
       <div class="row">
         <form class="formulario">
           <label class="radio-inline">
-            <input type="radio" id="radio1" name="modoN" onclick="cambiarModo()"><br>
+            <input type="radio" class="radioNaipes" id="radio1" name="modoN"><br>
             Modo 1
           </label>
           <label class="radio-inline">
-            <input type="radio" id="radio2" name="modoN" onclick="cambiarModo()"><br>
+            <input type="radio" class="radioNaipes" id="radio2" name="modoN"><br>
             Modo 2
           </label>
         </form>
@@ -110,14 +125,14 @@
       <!--VISTA GRÁFICA DE LOS NAIPES #1-->
       <div class="row" id="naipes1" style="display:none">
         <div class="divHijo">
-          <div class="col-xs-1" id="izq">
-            <p></p>
+          <div class="col-xs-1" id="izq1">
+            <p id="naipeIzq1"></p>
           </div>
-          <div class="col-xs-1" id="centro">
-            <p>15</p>
+          <div class="col-xs-1" id="centro1">
+            <p id="naipeCentro1">15</p>
           </div>
-          <div class="col-xs-1" id="der">
-            <p></p>
+          <div class="col-xs-1" id="der1">
+            <p id="naipeDer1"></p>
           </div>
         </div>
         <div class="divHijo">
@@ -126,7 +141,7 @@
               <span class="glyphicon glyphicon-remove"></span>
               <input type="number" min="1" max="10" id="n2" placeholder="Número 2" class="formulario2">
               <br><br>
-              <button type="submit" class="btn btn-default btn_naipe" onclick="kkkk()">Calcular</button>
+              <button type="submit" class="btn btn-default btn_naipe multiplicara">Calcular</button>
           </div>
         </div>
       </div>
@@ -134,21 +149,21 @@
       <!--VISTA GRÁFICA DE LOS NAIPES #2-->
       <div class="row" id="naipes2" style="display:none">
         <div class="divHijo">
-          <div class="col-xs-1" id="izq">
-            <p>5</p>
+          <div class="col-xs-1" id="izq2">
+            <p id="naipeIzq2"></p>
           </div>
-          <div class="col-xs-1" id="centro">
-            <p></p>
+          <div class="col-xs-1" id="centro2">
+            <p id="naipeCentro2"></p>
           </div>
-          <div class="col-xs-1" id="der">
-            <p>3</p>
+          <div class="col-xs-1" id="der2">
+            <p id="naipeDer2"></p>
           </div>
         </div>
         <div class="divHijo">
           <div class="text-center">
               <input type="number" min="1" max="100" id="res" placeholder="Resultado" class="formulario2">
               <br><br>
-              <button type="submit" class="btn btn-default btn_naipe" onclick="kkkk()">Calcular</button>
+              <button type="submit" class="btn btn-default btn_naipe multiplicarb">Calcular</button>
           </div>
         </div>
       </div>

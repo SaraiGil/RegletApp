@@ -12,15 +12,15 @@
     --color10: #ff751a;
 }
 
-#izq{
-	background-color: var(--color5);
+#izq1, #izq2{
+	/*background-color: var(--color5);*/
 	width: 110px;
 	height: 110px;
 	border-radius: 200px;
-	border: 1px solid var(--color5);
+	border: 1px solid black;
 }
 
-#centro{
+#centro1, #centro2{
 	background-color: white;
 	width: 120px;
 	height: 120px;
@@ -29,25 +29,31 @@
 
 }
 
-#der{
-	background-color: var(--color3);
+#der1, #der2{
 	width: 110px;
 	height: 110px;
 	border-radius: 200px;
-	border: 1px solid var(--color3);
+	border: 1px solid black;
+
 }
 
-#izq p, #der p, #centro p{
-	position: relative;
+#izq1 p, #der1 p, #centro1 p, #izq2 p, #der2 p, #centro2 p{
 	text-align: center;
 	vertical-align: middle;
 	line-height: 110px;
 
 }
 
+#res{
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
 .divHijo {
-    width:340px;
-    margin:0px auto;
+    width:360px;
+    margin: 0px auto;
 }
 
 .formulario{

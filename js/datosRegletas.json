@@ -286,267 +286,307 @@
   },
   "multiplicaciones":{
     "cuatro": {
-      "valor1": 2,
-      "valor2": 2,
-      "resultado": 4
+      "1":{
+        "valor1": 2,
+        "valor2": 2,
+        "resultado": 4
+      }
     },
     "seis": {
-      "6_1":{
+      "1":{
         "valor1": 2,
         "valor2": 3,
         "resultado": 6
       },
-      "6_2":{
+      "2":{
         "valor1": 3,
         "valor2": 2,
         "resultado": 6
       }
     },
     "ocho": {
-      "8_1":{
+      "1":{
         "valor1": 2,
         "valor2": 4,
         "resultado": 8
       },
-      "8_2":{
+      "2":{
         "valor1": 4,
         "valor2": 2,
         "resultado": 8
       }
     },
     "diez": {
-      "10_1":{
+      "1":{
         "valor1": 2,
         "valor2": 5,
         "resultado": 10
       },
-      "10_2":{
+      "2":{
         "valor1": 5,
         "valor2": 2,
         "resultado": 10
       }
     },
     "doce": {
-      "12_1":{
+      "1":{
         "valor1": 2,
         "valor2": 6,
         "resultado": 12
       },
-      "12_2":{
+      "2":{
         "valor1": 6,
         "valor2": 2,
         "resultado": 12
       },
-      "12_3":{
+      "3":{
         "valor1": 3,
         "valor2": 4,
         "resultado": 12
       },
-      "12_4":{
+      "4":{
         "valor1": 4,
         "valor2": 3,
         "resultado": 12
       }
     },
     "catorce": {
-      "14_1":{
+      "1":{
         "valor1": 2,
         "valor2": 7,
         "resultado": 14
       },
-      "14_2":{
+      "2":{
         "valor1": 7,
         "valor2": 2,
         "resultado": 14
       }
     },
     "dieciseis": {
-      "16_1":{
+      "1":{
         "valor1": 2,
         "valor2": 8,
         "resultado": 16
       },
-      "62_2":{
+      "2":{
         "valor1": 8,
         "valor2": 2,
         "resultado": 16
       },
-      "16_3":{
+      "3":{
         "valor1": 4,
         "valor2": 4,
         "resultado": 16
       }
     },
     "dieciocho": {
-      "18_1":{
+      "1":{
         "valor1": 2,
         "valor2": 9,
         "resultado": 18
       },
-      "18_2":{
+      "2":{
         "valor1": 9,
         "valor2": 2,
         "resultado": 18
       },
-      "18_3":{
+      "3":{
         "valor1": 3,
         "valor2": 6,
         "resultado": 18
       },
-      "18_4":{
+      "4":{
         "valor1": 6,
         "valor2": 3,
         "resultado": 18
       }
     },
     "veinte": {
-      "20_1":{
+      "1":{
         "valor1": 2,
         "valor2": 10,
         "resultado": 20
       },
-      "20_2":{
+      "2":{
         "valor1": 10,
         "valor2": 2,
         "resultado": 20
       },
-      "20_3":{
+      "3":{
         "valor1": 4,
         "valor2": 5,
         "resultado": 20
       },
-      "20_4":{
+      "4":{
         "valor1": 5,
         "valor2": 4,
         "resultado": 20
       }
     },
     "nueve": {
-      "valor1": 3,
-      "valor2": 3,
-      "resultado": 9
+      "1": {
+        "valor1": 3,
+        "valor2": 3,
+        "resultado": 9
+      }
     },
     "quince": {
-      "15_1":{
+      "1":{
         "valor1": 3,
         "valor2": 5,
         "resultado": 15
       },
-      "15_2":{
+      "2":{
         "valor1": 5,
         "valor2": 3,
         "resultado": 15
       }
     },
     "veintiuno": {
-      "21_1":{
+      "1":{
         "valor1": 3,
         "valor2": 7,
         "resultado": 21
       },
-      "21_2":{
+      "2":{
         "valor1": 7,
         "valor2": 3,
         "resultado": 21
       }
     },
     "veinticuatro": {
-      "24_1":{
+      "1":{
         "valor1": 3,
         "valor2": 8,
         "resultado": 24
       },
-      "24_2":{
+      "2":{
         "valor1": 8,
         "valor2": 3,
         "resultado": 24
       },
-      "24_3":{
+      "3":{
         "valor1": 4,
         "valor2": 6,
         "resultado": 24
       },
-      "24_4":{
+      "4":{
         "valor1": 6,
         "valor2": 4,
         "resultado": 24
       }
     },
+    "veintisiete": {
+      "1":{
+        "valor1": 3,
+        "valor2": 9,
+        "resultado": 27
+      },
+      "2":{
+        "valor1": 9,
+        "valor2": 3,
+        "resultado": 27
+      }
+    },
+    "treinta": {
+      "1":{
+        "valor1": 3,
+        "valor2": 10,
+        "resultado": 30
+      },
+      "2":{
+        "valor1": 10,
+        "valor2": 3,
+        "resultado": 30
+      },
+      "3":{
+        "valor1": 5,
+        "valor2": 6,
+        "resultado": 30
+      },
+      "4":{
+        "valor1": 6,
+        "valor2": 5,
+        "resultado": 30
+      }
+    },
     "veintiocho": {
-      "28_1":{
+      "1":{
         "valor1": 4,
         "valor2": 7,
         "resultado": 28
       },
-      "28_2":{
+      "2":{
         "valor1": 7,
         "valor2": 4,
         "resultado": 28
       }
     },
     "treintaydos": {
-      "32_1":{
+      "1":{
         "valor1": 4,
         "valor2": 8,
         "resultado": 32
       },
-      "32_2":{
+      "2":{
         "valor1": 8,
         "valor2": 4,
         "resultado": 32
       }
     },
     "treintayseis": {
-      "36_1":{
+      "1":{
         "valor1": 4,
         "valor2": 9,
         "resultado": 36
       },
-      "36_2":{
+      "2":{
         "valor1": 9,
         "valor2": 4,
         "resultado": 36
       },
-      "36_3":{
+      "3":{
         "valor1": 6,
         "valor2": 6,
         "resultado": 36
       }
     },
     "cuarenta": {
-      "40_1":{
+      "1":{
         "valor1": 4,
         "valor2": 10,
         "resultado": 40
       },
-      "40_2":{
+      "2":{
         "valor1": 10,
         "valor2": 4,
         "resultado": 40
       },
-      "40_3":{
+      "3":{
         "valor1": 5,
         "valor2": 8,
         "resultado": 40
       },
-      "40_4":{
+      "4":{
         "valor1": 8,
         "valor2": 5,
         "resultado": 40
       }
     },
     "veinticinco": {
-      "valor1": 5,
-      "valor2": 5,
-      "resultado": 25
+      "1":{
+        "valor1": 5,
+        "valor2": 5,
+        "resultado": 25
+      }
     },
     "treintaycinco": {
-      "35_1":{
+      "1":{
         "valor1": 5,
         "valor2": 7,
         "resultado": 35
       },
-      "35_2":{
+      "2":{
         "valor1": 7,
         "valor2": 5,
         "resultado": 35
@@ -589,132 +629,140 @@
       }
     },
     "cuarentayocho": {
-      "48_1":{
+      "1":{
         "valor1": 6,
         "valor2": 8,
         "resultado": 48
       },
-      "48_2":{
+      "2":{
         "valor1": 8,
         "valor2": 6,
         "resultado": 48
       }
     },
-    "cincentaycuatro": {
-      "54_1":{
+    "cincuentaycuatro": {
+      "1":{
         "valor1": 6,
         "valor2": 9,
         "resultado": 54
       },
-      "54_2":{
+      "2":{
         "valor1": 9,
         "valor2": 6,
         "resultado": 54
       }
     },
     "sesenta": {
-      "60_1":{
+      "1":{
         "valor1": 6,
         "valor2": 10,
         "resultado": 60
       },
-      "60_2":{
+      "2":{
         "valor1": 10,
         "valor2": 6,
         "resultado": 60
       }
     },
     "cuarentaynueve": {
-      "valor1": 7,
-      "valor2": 7,
-      "resultado": 49
+      "1":{
+        "valor1": 7,
+        "valor2": 7,
+        "resultado": 49
+      }
     },
     "cincuentayseis": {
-      "56_1":{
+      "1":{
         "valor1": 7,
         "valor2": 8,
         "resultado": 56
       },
-      "56_2":{
+      "2":{
         "valor1": 8,
         "valor2": 7,
         "resultado": 56
       }
     },
     "sesentaytres": {
-      "63_1":{
+      "1":{
         "valor1": 7,
         "valor2": 9,
         "resultado": 63
       },
-      "63_2":{
+      "2":{
         "valor1": 9,
         "valor2": 7,
         "resultado": 63
       }
     },
     "setenta": {
-      "70_1":{
+      "1":{
         "valor1": 7,
         "valor2": 10,
         "resultado": 70
       },
-      "70_2":{
+      "2":{
         "valor1": 10,
         "valor2": 7,
         "resultado": 70
       }
     },
     "sesentaycuatro": {
-      "valor1": 8,
-      "valor2": 8,
-      "resultado": 64
+      "1":{
+        "valor1": 8,
+        "valor2": 8,
+        "resultado": 64
+      }
     },
     "setentaydos": {
-      "72_1":{
+      "1":{
         "valor1": 8,
         "valor2": 9,
         "resultado": 72
       },
-      "72_2":{
+      "2":{
         "valor1": 9,
         "valor2": 8,
         "resultado": 72
       }
     },
     "ochenta": {
-      "80_1":{
+      "1":{
         "valor1": 8,
         "valor2": 10,
         "resultado": 80
       },
-      "80_2":{
+      "2":{
         "valor1": 10,
         "valor2": 8,
         "resultado": 80
       }
     },
     "ochentayuno": {
-      "valor1": 9,
-      "valor2": 9,
-      "resultado": 81
+      "1":{
+        "valor1": 9,
+        "valor2": 9,
+        "resultado": 81
+      }
     },
     "noventa": {
-      "90_1":{
+      "1":{
         "valor1": 9,
         "valor2": 10,
         "resultado": 90
       },
-      "90_2":{
+      "2":{
         "valor1": 10,
         "valor2": 9,
         "resultado": 90
       }
     },
     "cien": {
-        "valor1": 10,
-        "valor2": 10,
-        "resultado": 100
+        "1":{
+          "valor1": 10,
+          "valor2": 10,
+          "resultado": 100
+        }
       }
   }
 }
