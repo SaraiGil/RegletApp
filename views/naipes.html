@@ -19,6 +19,12 @@
     <script src="../js/jquery-3.1.1.js"></script>
     <script src="../js/funcionesNaipes.js"></script>
     <!-- <script src="../js/funcionessumas.js"></script> -->
+    <script>
+    if(!localStorage.getItem('puntajeNaipes')){
+      localStorage.setItem('puntajeNaipes',0);
+    }
+
+    </script>
     <script src="../js/validaryfunciones.js"></script>
 
     <!--HOJAS DE ESTILOS-->
@@ -64,7 +70,7 @@
             </a>
           </li>
           <li>
-            <a href="premios.html" style="color: #00ccff;" id="pestPremios"><span class="glyphicon glyphicon-education"></span>
+            <a href="premios.html" style="color: #00ccff;" id="pestPremios" onclick="asignarPremios()"><span class="glyphicon glyphicon-education"></span>
               Mis Premios
             </a>
           </li>

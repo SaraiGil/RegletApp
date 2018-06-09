@@ -85,9 +85,9 @@ $(document).ready(function(){
           rellenoNaipeIA(multiplicando1);
           rellenoNaipeDA(multiplicando2);
 
-          addPuntaje();
+          addPuntajeN();
           notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
-          setTimeout(function(){location.reload(); },7000);
+          setTimeout(function(){location.reload(); },3000);
         }else{
           notificacionReg("Resultado Incorrecto, intenta otra vez.","¡Oh no! :(");
         }
@@ -114,7 +114,7 @@ $(document).ready(function(){
 
           //localStorage.setItem('puntaje',(puntos+10));
           //totalPunt=JSON.parse(localStorage.getItem("puntaje"));
-          addPuntaje();
+          addPuntajeN();
           notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
           setTimeout(function(){location.reload(); },3000);
         }else{

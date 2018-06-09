@@ -21,7 +21,7 @@ function Login(){
     localStorage.setItem('usuario' , JSON.stringify(user))
     nuevoUsuario = JSON.parse(localStorage.getItem("usuario"))
   	console.log(nuevoUsuario)
-    notificacionReg(nuevoUsuario,"Bienvenido");
+    notificacionReg(nuevoUsuario,"Bienvenid@ :)");
     setTimeout(function(){window.location.href = 'views/inicio.html'; },2000);
 
   } else{
@@ -32,7 +32,8 @@ function Login(){
 }
 
 function removeStorage(){
-  localStorage.removeItem('puntaje');
+  localStorage.removeItem('puntajeSumas');
+  localStorage.removeItem('puntajeNaipes');
   localStorage.removeItem('usuario');
 }
 
@@ -485,12 +486,24 @@ function rellenoSuma(valor){
   }
 }
 
-
-function addPuntaje(){
-
-    pts = parseInt(localStorage.getItem('puntaje')+10) ;
-    console.log("variable pts"+pts);
-    localStorage.setItem('puntaje',pts);
-    totalPunt=JSON.parse(localStorage.getItem("puntaje"));
-    console.log(totalPunt)
+function addPuntajeN(){
+  puntosN = parseInt(localStorage.getItem('puntajeNaipes'));
+  ptsN=puntosN+10;
+  console.log("variable pts Naipes: "+ptsN);
+  localStorage.setItem('puntajeNaipes',ptsN);
+  totalN=JSON.parse(localStorage.getItem("puntajeNaipes"));
+  console.log(totalN)
 }
+
+function addPuntajeS(){
+
+    puntosS = parseInt(localStorage.getItem('puntajeSumas'));
+    ptsS=puntosS+10;
+    console.log("variable pts Sumas: "+ptsS);
+    localStorage.setItem('puntajeSumas',ptsS);
+    totalS=JSON.parse(localStorage.getItem("puntajeSumas"));
+    console.log(totalS)
+}
+
+// function asignarPremios(){
+// }

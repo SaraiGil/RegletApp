@@ -19,6 +19,12 @@ h2, h3, h4 {
 	font-family: 'kindergartenmedium';
 }
 
+h3{
+  text-align: center;
+  font-size: 30px !important;
+  font-style: bold;
+}
+
 h2{
 	font-size: 40px !important;
 }
@@ -40,6 +46,19 @@ li {
 	list-style: none;
 	padding: 8px;
 }
+
+.izqPremios{
+}
+
+.derPremios{
+  position: relative;
+}
+
+#noPremiosS, #noPremiosN{
+  color: #A183A1 !important;
+
+}
+
 
 img {
 	display: block;

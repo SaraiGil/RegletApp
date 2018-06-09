@@ -17,8 +17,9 @@
 
     <!--JAVASCRIPT-->
     <script src="../js/jquery-3.1.1.js"></script>
-    <script src="../js/funcionesNaipes.js"></script>
-    <script src="../js/funcionessumas.js"></script>
+    <!-- <script src="../js/funcionesNaipes.js"></script>
+    <script src="../js/funcionessumas.js"></script> -->
+    <script src="../js/funcionespremios.js"></script>
     <script src="../js/validaryfunciones.js"></script>
 
     <!--HOJAS DE ESTILOS-->
@@ -63,13 +64,13 @@
             </a>
           </li>
           <li>
-            <a href="premios.html" style="color: #00ccff;" id="pestPremios"><span class="glyphicon glyphicon-education"></span>
+            <a href="premios.html" style="color: #00ccff;" id="pestPremios" onclick="asignarPremios()"><span class="glyphicon glyphicon-education"></span>
               Mis Premios
             </a>
           </li>
           <li class="divider"></li>
           <li>
-            <a href="../index.html" style="color: #00ccff;" id="pestSalir"><span class="glyphicon glyphicon-off"></span>
+            <a href="../index.html" style="color: #00ccff;" id="pestSalir" onclick="removeStorage()"><span class="glyphicon glyphicon-off"></span>
               <strong>Salir</strong>
             </a>
           </li>
@@ -102,19 +103,26 @@
         <!-- modal fin -->
 
         <div class="col-xs-10">
-          <br><br>
-
           <h2 class="text-center">Mis Premios</h2>
-          <br><br>
-
+          <h3 id="user">6</h3>
           <div class="row">
             <div class="col-xs-1"></div>
             <div class="col-xs-10">
-              <ul>
-                <li><p><span class="glyphicon glyphicon-education"></span> - Premio 1</p></li>
-                <li><p><span class="glyphicon glyphicon-education"></span> - Premio 2</p></li>
-                <li><p><span class="glyphicon glyphicon-education"></span> - Premio 3</p></li>
-                <li><p><span class="glyphicon glyphicon-education"></span> - Premio 4</p></li>
+              <h3>Sumas</h3>
+              <ul class="izqPremios">
+                <li id="sinPremiosS"><p id="noPremiosS"><span class="glyphicon glyphicon-question-sign"></span> - No tienes premios de Sumas aún :(</p></li>
+                <li id="SPremio1" style="display:none"><p><span class="glyphicon glyphicon-thumbs-up"></span> - ¡Bien hecho!</p></li>
+                <li id="SPremio2" style="display:none"><p><span class="glyphicon glyphicon-sunglasses"></span> - ¡Perfecto!</p></li>
+                <li id="SPremio3" style="display:none"><p><span class="glyphicon glyphicon-heart"></span> - ¡Genial!</p></li>
+                <li id="SPremio4" style="display:none"><p><span class="glyphicon glyphicon-star"></span> - ¡Fantástico!</p></li>
+              </ul>
+              <h3>Naipes</h3>
+              <ul class="derPremios">
+                <li id="sinPremiosN"><p id="noPremiosN"><span class="glyphicon glyphicon-question-sign"></span> - No tienes premios de Naipes aún :(</p></li>
+                <li id="NPremio1" style="display:none"><p><span class="glyphicon glyphicon-thumbs-up"></span> - ¡Bien hecho!</p></li>
+                <li id="NPremio2" style="display:none"><p><span class="glyphicon glyphicon-sunglasses"></span> - ¡Perfecto!</p></li>
+                <li id="NPremio3" style="display:none"><p><span class="glyphicon glyphicon-heart"></span> - ¡Genial!</p></li>
+                <li id="NPremio4" style="display:none"><p><span class="glyphicon glyphicon-star"></span> - ¡Fantástico!</p></li>
               </ul>
             </div>
           </div>
