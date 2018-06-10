@@ -4,9 +4,9 @@ $(document).ready(function(){
   user = window.localStorage.getItem('usuario')
   nombre = document.getElementById("user");
   nombre.innerHTML="Hola "+ user +", estos son tus premios"
-  sumas = parseInt(window.localStorage.getItem('puntajeSumas'));
+  sumas = localStorage.getItem('puntajeSumas');
   console.log(sumas);
-  naipes = parseInt(window.localStorage.getItem('puntajeNaipes'));
+  naipes = window.localStorage.getItem('puntajeNaipes');
   console.log(naipes);
   sinPremiosS = document.getElementById("sinPremiosS");
   sinPremiosN = document.getElementById("sinPremiosN");
