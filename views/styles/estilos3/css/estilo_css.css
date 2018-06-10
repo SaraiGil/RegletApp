@@ -108,6 +108,10 @@ input{
 		transition: .9s ease-in-out;
 
 	}
+
+  #texto{
+    font-size: 26px !important;
+  }
 		.ver-ventana{
 			display: block !important;
 		}
@@ -119,5 +123,6 @@ input{
 		}
 		.ventana>p, .ventana>p{
 			color: #E7DFF4 !important;
+      font-size: 14px !important;
 		}
 /*fin estilos de alerta*/

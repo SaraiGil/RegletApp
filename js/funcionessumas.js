@@ -36,7 +36,8 @@ $(document).ready(function(){
 
             if(resultadoS == totalS){
               addPuntajeS();
-              notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
+              totalS=JSON.parse(localStorage.getItem('puntajeSumas'));
+              notificacionReg("Correcto, 10pts. para ti. Total-"+totalS+"pts. En Sumas","¡Yaaay! :)");
               setTimeout(function(){location.reload(); },3000);
             }else{
               notificacionReg("Resultado Incorrecto, intenta otra vez.","¡Oh no! :(");

@@ -86,7 +86,8 @@ $(document).ready(function(){
           rellenoNaipeDA(multiplicando2);
 
           addPuntajeN();
-          notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
+          totalNA=JSON.parse(localStorage.getItem('puntajeNaipes'));
+          notificacionReg("Correcto, 10pts. para ti. Total-"+totalNA+"pts. en Naipes","¡Yaaay! :)");
           setTimeout(function(){location.reload(); },3000);
         }else{
           notificacionReg("Resultado Incorrecto, intenta otra vez.","¡Oh no! :(");
@@ -115,7 +116,8 @@ $(document).ready(function(){
           //localStorage.setItem('puntaje',(puntos+10));
           //totalPunt=JSON.parse(localStorage.getItem("puntaje"));
           addPuntajeN();
-          notificacionReg("Resultado Correcto, 10pts. para ti","¡Yaaay! :)");
+          totalN=JSON.parse(localStorage.getItem('puntajeNaipes'));
+          notificacionReg("Correcto, 10pts. para ti. Total-"+totalN+"pts. en Naipes","¡Yaaay! :)");
           setTimeout(function(){location.reload(); },3000);
         }else{
           notificacionReg("Resultado Incorrecto, intenta otra vez.","¡Oh no! :(");
