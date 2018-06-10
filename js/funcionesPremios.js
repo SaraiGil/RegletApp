@@ -1,12 +1,12 @@
 var ptsSumasFinal;
 var ptsNaipesFinal;
 $(document).ready(function(){
-  user = JSON.parse(localStorage.getItem('usuario'))
+  user = window.localStorage.getItem('usuario')
   nombre = document.getElementById("user");
   nombre.innerHTML="Hola "+ user +", estos son tus premios"
-  sumas = parseInt(localStorage.getItem('puntajeSumas'));
+  sumas = parseInt(window.localStorage.getItem('puntajeSumas'));
   console.log(sumas);
-  naipes = parseInt(localStorage.getItem('puntajeNaipes'));
+  naipes = parseInt(window.localStorage.getItem('puntajeNaipes'));
   console.log(naipes);
   sinPremiosS = document.getElementById("sinPremiosS");
   sinPremiosN = document.getElementById("sinPremiosN");

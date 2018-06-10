@@ -116,7 +116,7 @@ $(document).ready(function(){
           //localStorage.setItem('puntaje',(puntos+10));
           //totalPunt=JSON.parse(localStorage.getItem("puntaje"));
           addPuntajeN();
-          totalN=JSON.parse(localStorage.getItem('puntajeNaipes'));
+          totalN=localStorage.getItem('puntajeNaipes');
           notificacionReg("Correcto, 10pts. para ti. Total-"+totalN+"pts. en Naipes","¡Yaaay! :)");
           setTimeout(function(){location.reload(); },3000);
         }else{

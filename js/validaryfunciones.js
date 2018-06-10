@@ -18,8 +18,8 @@ function notificacionReg(texto, titulo){
 function Login(){
   user = document.getElementById("username").value
   if(user != ''){
-    localStorage.setItem('usuario' , JSON.stringify(user))
-    nuevoUsuario = JSON.parse(localStorage.getItem("usuario"))
+    localStorage.setItem('usuario' , user)
+    nuevoUsuario = localStorage.getItem("usuario")
   	console.log(nuevoUsuario)
     notificacionReg(nuevoUsuario,"Bienvenid@ :)");
     setTimeout(function(){window.location.href = 'views/inicio.html'; },2000);
@@ -491,7 +491,7 @@ function addPuntajeN(){
   ptsN=puntosN+10;
   console.log("variable pts Naipes: "+ptsN);
   localStorage.setItem('puntajeNaipes',ptsN);
-  totalN=JSON.parse(localStorage.getItem("puntajeNaipes"));
+  totalN=localStorage.getItem('puntajeNaipes');
   console.log(totalN)
 }
 
@@ -501,7 +501,7 @@ function addPuntajeS(){
     ptsS=puntosS+10;
     console.log("variable pts Sumas: "+ptsS);
     localStorage.setItem('puntajeSumas',ptsS);
-    totalS=JSON.parse(localStorage.getItem("puntajeSumas"));
+    totalS=localStorage.getItem('puntajeSumas');
     console.log(totalS)
 }
 
