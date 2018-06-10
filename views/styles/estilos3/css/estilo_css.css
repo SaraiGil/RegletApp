@@ -86,13 +86,14 @@ input{
 	}
 
 	.ventana, .ventana{
-		width: 66%;
+		width: 70%;
 		/*height: 200px;*/
 		float: left;
 		position: fixed;
 		background: #8863eb;
 		z-index: 9999999;
-		margin-left: 8% !important;;
+		margin-left: 15% !important;
+    margin-left: 15% !important;
 		/*left: -25%;*/
 		/* display: none; */
 		padding: 10px;

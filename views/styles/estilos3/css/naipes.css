@@ -47,7 +47,6 @@
 #res{
   margin-left: 110px;
   margin-right: 110px;
-  margin-top: 20px;
   padding-left: 20px;
 }
 
@@ -58,6 +57,11 @@
 .divHijo {
     width:360px;
     margin: 0px auto;
+}
+
+#PreguntaM1, #PreguntaM2{
+  color: black;
+  font-size: 13px;
 }
 
 .formulario{

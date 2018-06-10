@@ -18,6 +18,20 @@ $(document).ready(function(){
   premioN2 = document.getElementById("NPremio2");
   premioN3 = document.getElementById("NPremio3");
   premioN4 = document.getElementById("NPremio4");
+  txtPuntajeS = document.getElementById("PremiosSFinal");
+  txtPuntajeN = document.getElementById("PremiosNFinal");
+  if (isNaN(sumas)) {
+    txtPuntajeS.innerHTML = "Sumas - 0pts.";
+  }else {
+    txtPuntajeS.innerHTML = "Sumas - "+sumas+"pts.";
+  }
+  if (isNaN(naipes)) {
+    txtPuntajeN.innerHTML = "Naipes - 0pts.";
+  }else {
+    txtPuntajeN.innerHTML = "Naipes - "+naipes+"pts.";
+  }
+
+
 
   if (sumas < 50) {
     ptsSumasFinal = 1;
